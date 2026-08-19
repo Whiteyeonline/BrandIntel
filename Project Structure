@@ -1,0 +1,44 @@
+brandintel/
+├── .github/workflows/deploy.yml
+├── public/
+├── src/
+│   ├── types/
+│   │   ├── brand.ts
+│   │   ├── provider.ts
+│   │   └── evidence.ts
+│   ├── providers/
+│   │   ├── IProvider.ts
+│   │   ├── ProviderRegistry.ts
+│   │   ├── WikipediaProvider.ts
+│   │   ├── WikidataProvider.ts
+│   │   ├── GitHubProvider.ts
+│   │   ├── RSSNewsProvider.ts
+│   │   ├── RedditProvider.ts
+│   │   └── HackerNewsProvider.ts
+│   ├── services/
+│   │   ├── CollectionService.ts
+│   │   ├── ScoringService.ts
+│   │   ├── TimelineService.ts
+│   │   └── ExportService.ts
+│   ├── store/
+│   │   └── BrandContext.tsx
+│   ├── components/
+│   │   ├── ui/
+│   │   ├── layout/
+│   │   ├── search/
+│   │   ├── dossier/
+│   │   └── report/
+│   ├── demo/
+│   │   └── demoData.ts
+│   ├── hooks/
+│   ├── utils/
+│   ├── App.tsx
+│   ├── main.tsx
+│   └── index.css
+├── tests/
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+├── .gitignore
+└── README.md
