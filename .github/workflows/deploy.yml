@@ -47,23 +47,7 @@ jobs:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
-Use Control + Shift + m to toggle the tab key moving focus. Alternatively, use esc then tab to move to the next interactive element on the page.
-Skip to content
-BrandIntel
-Repository navigation
-Code
-Issues
-Pull requests
-BrandIntel/github/workflows
-/deploy.yml
-Whiteyeonline
-Whiteyeonline
-13 hours ago
-45 lines (35 loc) · 838 Bytes
 
-Code
-
-Blame
 name: Deploy BrandIntel to GitHub Pages
 
 on:
